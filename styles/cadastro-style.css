@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    padding: 20px 20px 0;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    height: 40px;
+}
+
+main {
+    margin-top: 100px;
+    text-align: left;
+    display: flex;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    align-items: flex-start;
+
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+}
+
+.icon {
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+p {
+    font-size: 1em;
+    color: #333;
+}
+
+footer {
+    height: 50px;
+    background-color: #4A148C;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#cadastro-button, #maquinas-button{
+    background-color: #4A148C;
+    color: white;
+    width: 70%;
+    height: 50px;
+    border-style: none;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s 
+    
+}
+
+#cadastro-button:hover, #maquinas-button:hover{
+    background-color: #7105f5;
+    color: white;
+    border-style: solid 1px #333;
+    transform: scale(1.2)
+
+}
+
+.divisao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
